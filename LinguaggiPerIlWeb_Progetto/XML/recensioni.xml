@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recensioni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recensioni.xsd"><recensione><idRec>1</idRec><dataCreaz>2019-07-02</dataCreaz><creatore>cliente1</creatore><testo>Molto bello ma si rosica</testo><valutazione>3</valutazione><gioco>Risiko</gioco><voto><creatore>cliente2</creatore><valoreVoto>false</valoreVoto></voto><voto><creatore>gestore1</creatore><valoreVoto>true</valoreVoto></voto></recensione></recensioni>

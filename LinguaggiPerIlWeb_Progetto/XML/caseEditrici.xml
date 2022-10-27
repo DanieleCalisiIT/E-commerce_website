@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<caseEditrici xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="caseEditrici.xsd">
+<casaEditrice>
+  <idCasa>1</idCasa>
+  <nome>UPlay</nome>
+</casaEditrice>
+<casaEditrice>
+  <idCasa>2</idCasa>
+  <nome>Pendragon</nome>
+</casaEditrice>
+</caseEditrici>

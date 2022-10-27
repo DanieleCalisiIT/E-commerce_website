@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="ordini">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="ordine" maxOccurs="unbounded"/>
+    </xsd:sequence>  
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="ordine">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element ref="idOrd"/>  
+        <xsd:element ref="idCli"/>
+        <xsd:element ref="dataAcquisto"/>
+        <xsd:element ref="gioco" maxOccurs="unbounded"/>   
+        <xsd:element ref="totale"/>
+        <xsd:element ref="totaleCrediti"/>
+    </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idOrd" type="xsd:integer" />
+<xsd:element name="idCli" type="xsd:integer" />
+<xsd:element name="dataAcquisto" type="xsd:date" />
+<xsd:element name="gioco" type="gioco" />
+<xsd:element name="totale" type="xsd:double" />
+<xsd:element name="totaleCrediti" type="xsd:double" />
+
+<xsd:complexType name="gioco">
+      <xsd:sequence>
+         <xsd:element ref="nomeGioco"/>
+         <xsd:element ref="immagineGioco"/>
+         <xsd:element ref="linguaGioco"/>
+         <xsd:element ref="annoGioco"/>
+         <xsd:element ref="prezzoAcquisto" />
+      </xsd:sequence>
+</xsd:complexType>
+
+<xsd:element name="nomeGioco" type="xsd:string"/>
+<xsd:element name="immagineGioco" type="xsd:string"/>
+<xsd:element name="linguaGioco" type="xsd:string"/>
+<xsd:element name="annoGioco" type="xsd:integer"/>
+<xsd:element name="prezzoAcquisto" type="xsd:double"/>
+
+</xsd:schema>  

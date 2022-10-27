@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        
+  <xsd:element name="lista_indirizzi">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="indirizzo" maxOccurs="unbounded"/>
+    </xsd:sequence>  
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="indirizzo">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element ref="id"/>
+        <xsd:element ref="citta"/>
+        <xsd:element ref="cap"/>
+        <xsd:element ref="provincia"/>
+        <xsd:element ref="regione"/>
+        <xsd:element ref="nazione"/>
+        <xsd:element ref="via"/>
+        <xsd:element ref="civico"/>    
+    </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="id" type="xsd:integer"/>
+<xsd:element name="citta" type="xsd:string"/>
+<xsd:element name="cap" type="xsd:integer"/>
+<xsd:element name="provincia" type="xsd:string"/>
+<xsd:element name="regione" type="xsd:string"/>
+<xsd:element name="nazione" type="xsd:string"/>
+<xsd:element name="via" type="xsd:string"/>
+<xsd:element name="civico" type="xsd:integer"/>
+</xsd:schema> 

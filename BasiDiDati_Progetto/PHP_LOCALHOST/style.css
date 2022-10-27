@@ -1,0 +1,517 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/Best-Board-Games-for-iPhone-and-iPad.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 80%;
+  
+}
+
+.topbar{
+  position: relative;
+  top: 3%;
+  width: 92%;
+  height: 20%;
+  left: 27%;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.topbar a{
+  float: left;
+  top: 0;
+  color: black;
+  text-align: center;
+  padding: 1.4% 1.8%;
+  text-decoration: none;
+  font-size: 110%;
+  border-radius: 10px;
+}
+
+.top{
+  background-color: #90EE90;
+  width: 20%;
+  position: relative;
+  right: 0;
+  top: 5%;
+  margin: 0.4%;
+}
+
+.topbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topbar a.active {
+  color: white;
+}
+
+.sidenav {
+  height: 45%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 48.1%;
+  left: 0.65%;
+  background-color: #FAEBD7;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;  
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: crimson;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+.sidenavlogin {
+  height: 38%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 4.2%;
+  left: 0.65%;
+  background-color: #FAEBD7;
+  overflow-x: hidden;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.pannelloUtente{
+  text-align: center;
+}
+
+.modificaProfilo{
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+  list-style-type: none;
+}
+
+.modifica{
+  position: absolute;
+  bottom: 0%;
+  left: 45.5%;
+  padding: 1%;
+  font-size: 100%;
+  color: white;
+  background: #D2691E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.input-group{
+    margin-left: 2%;
+    font-size: 120%;
+}
+
+
+.header{
+    width: 96.6%;
+    margin: 50px auto 0px;
+    color: white;
+    background:  	#B8860B;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+#phome{
+  font-size: 160%;
+  text-align: center;
+  bottom: 2%;
+  padding: 3%;
+  font-family: Fredericka the Great;
+  text-align: center;
+}
+
+
+form, .content {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .formCarrello{
+    width: 100%;
+  }
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+  }
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+    
+  }
+.input-group input {
+    height: 4.5%;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #B8860B;
+  }
+
+.input-group select{
+    height: 4.5%;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input:focus{
+    background-color: white;
+  }
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #D2691E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.body{
+    position: relative;
+    left: 24%;
+    background: #FFEBCD;
+    height: auto;
+    width: 96%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: monospace;
+  }
+
+ul.colonna{
+  margin-top: 2px;
+  margin-left: 15px;
+  padding: 0;
+  list-style-type: none;
+  
+}
+
+li.colonna{
+  margin: 0;
+  padding: 0;
+}
+
+.login-form{
+    width: 100%;
+    height: 80%;
+    font-size: 15px;
+  }
+
+.login-input{
+    width: 50%;
+    position: relative;
+    left: 15px;
+    border-radius: 10px;
+    background: #B8860B;
+  }
+
+.login-btn{
+    width: 80%;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #D2691E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.div-login-head{
+    position: fixed;
+    top: -1%;
+    left: 0.65%;
+  }
+
+.login-head{
+    position: fixed;
+    width: 15%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    background-color: #f90;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+.div-catalogo-head{
+    position: fixed;
+    top: 43%;
+    left: 0.65%;
+  }
+
+.catalogo-head{
+    position: fixed;
+    width: 15%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+    color: #fff;
+    background-color: #f90;
+    text-align: center;
+    font-size: 15px;
+  }
+table{
+  position: relative;
+  top: 3%;
+  left: 1%;
+  right: 1%;
+  width: 97%;
+  padding: 3%;
+  font-size: 120%;
+}
+tr{
+    position: relative;
+    left: 0;
+  }
+
+td{
+  position: relative;
+  left: 0;
+  text-align: center;
+}
+
+.chiara{
+  background-color:#DEB887;
+}
+
+.scura{
+  background-color:  	 	#D2691E;
+}
+
+.error{
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  font-size: 150%;
+
+}
+
+.FAQ{
+  table-layout: fixed;
+  width: 50%;
+  left: 25%;
+}
+
+.domFAQ{
+  font-family: 'Times New Roman', Times, serif;
+  color: cadetblue;
+  font-size: 110%;
+  font-weight: bold;
+  
+}
+
+.rispFAQ{
+  font-family: 'Times New Roman', Times, serif;
+  color: crimson;
+  font-size: 110%;
+}
+
+#forum{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 2%;
+  font-size: 120%;
+  height: 35%;
+  padding-bottom: 12%;
+
+}
+
+.forum-btn1{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #D2691E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    left: 27%;
+    top: 80%;
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+.forum-btn2{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #D2691E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  left: 55%;
+  top: 80%;
+  margin: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+}
+
+#carrello {
+  position: relative;
+  left: 0;
+}
+
+#trcarrello{
+  position: relative;
+  left: 0;
+}
+
+.tdcarrello{
+  position: relative;
+  left: 0;
+}
+
+.btn-carrello {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #D2691E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  bottom: 70px;
+  right: 110px;
+  float: right;
+}
+
+#totale{
+  text-align: right;
+  padding: 50px;
+}
+
+.pannello{
+  text-decoration: none;
+  color: chocolate;
+}
+
+
+.pannello:visited{
+  color: chocolate;
+}
+.pannello:hover{
+  color:red;
+}
+
+.errori{
+
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  color: red;
+  
+}
+
+#error{
+  color: red;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80%;
+}
+
+#nuovaFAQ{
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+#newFAQ{
+  color: grey;
+}
+
+#creaDom{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #D2691E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  position: fixed;
+  top: 38%;
+  right: 6%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#domande{
+  position: relative;
+  left: 25%;
+}
+
+#ordini{
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.descrizione{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120%;
+  background-color: #D2691E;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#selezioneForm{
+  position: absolute;
+  top: 9%;
+  left: 0;
+  width: 90%;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#selezione{
+  border-radius: 10px;
+  width: 80%;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+#creaRecens{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #D2691E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  position: fixed;
+  top: 38%;
+  right: 6%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+#recens{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 110%;
+}

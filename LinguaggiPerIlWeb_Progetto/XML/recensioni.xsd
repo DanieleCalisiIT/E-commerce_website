@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        
+<xsd:element name="recensioni">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="recensione" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="recensione">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="idRec"/>
+      <xsd:element ref="dataCreaz" />
+      <xsd:element ref="creatore" />
+      <xsd:element ref="testo" />
+      <xsd:element ref="valutazione" />
+      <xsd:element ref="gioco"/>
+      <xsd:element ref="voto" minOccurs="0" maxOccurs="unbounded"/>    
+    </xsd:sequence>  
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idRec" type="xsd:integer" />
+<xsd:element name="dataCreaz" type="xsd:date" />
+<xsd:element name="creatore" type="xsd:string" />
+<xsd:element name="testo" type="xsd:string" />
+<xsd:element name="valutazione" type="xsd:double" />
+<xsd:element name="gioco" type="xsd:string"/>
+<xsd:element name="voto" type="voto" />
+
+<xsd:complexType name="voto">
+      <xsd:sequence>
+         <xsd:element ref="creatore" />
+         <xsd:element ref="valoreVoto" />
+      </xsd:sequence>
+</xsd:complexType>
+
+<xsd:element name="valoreVoto" type="xsd:string"/>
+
+</xsd:schema>      

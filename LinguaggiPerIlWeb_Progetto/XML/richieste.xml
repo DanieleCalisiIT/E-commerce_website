@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richieste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="richieste.xsd"><richiesta><idRich>1</idRich><importo>3.05</importo><idAcc>5</idAcc></richiesta><richiesta><idRich>2</idRich><importo>20</importo><idAcc>5</idAcc></richiesta></richieste>

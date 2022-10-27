@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        
+ <xsd:element name="sconti">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="sconto" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:complexType> 
+ </xsd:element> 
+
+<xsd:element name="sconto">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="idSconto"/>
+      <xsd:element ref="percentuale"/>
+      <xsd:element ref="repNecess"/>
+      <xsd:element ref="credNecess"/>
+      <xsd:element ref="scadenza"/>
+    </xsd:sequence>
+    <xsd:attribute name="stato" type="xsd:string" use="required"/>
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idSconto" type="xsd:integer"/>
+<xsd:element name="percentuale" type="xsd:integer"/>
+<xsd:element name="repNecess" type="xsd:integer"/>
+<xsd:element name="credNecess" type="xsd:integer"/>
+<xsd:element name="scadenza" type="xsd:date"/>
+</xsd:schema>

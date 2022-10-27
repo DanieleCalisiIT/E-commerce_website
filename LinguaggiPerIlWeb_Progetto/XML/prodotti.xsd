@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="prodotti">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="gioco" maxOccurs="unbounded"/>
+    </xsd:sequence>  
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="gioco">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element ref="idProd"/>  
+        <xsd:element ref="nome"/>
+        <xsd:element ref="idCateg"/>
+        <xsd:element ref="idCasa"/>
+        <xsd:element ref="lingua"/>
+        <xsd:element ref="annoProd"/>
+        <xsd:element ref="prezzo"/>
+        <xsd:element ref="img"/>
+        <xsd:element ref="idSconto" minOccurs="0" maxOccurs="unbounded"/>    
+    </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idProd" type="xsd:integer"/>
+<xsd:element name="nome" type="xsd:string"/>
+<xsd:element name="idCateg" type="xsd:string"/>
+<xsd:element name="idCasa" type="xsd:string"/>
+<xsd:element name="lingua" type="xsd:string"/>
+<xsd:element name="annoProd" type="xsd:string"/>
+<xsd:element name="prezzo" type="xsd:double"/>
+<xsd:element name="img" type="xsd:string"/>
+<xsd:element name="idSconto" type="xsd:integer"/>
+</xsd:schema> 

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 
+ <xsd:element name="account">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="profilo" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:complexType> 
+ </xsd:element> 
+
+<xsd:element name="profilo">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="idAcc"/>
+      <xsd:element ref="nome"/>
+      <xsd:element ref="cognome"/>
+      <xsd:element ref="soldi"/>
+      <xsd:element ref="crediti"/>
+      <xsd:element ref="reputazione"/>
+      <xsd:element ref="idAddr"/>
+      <xsd:element ref="countBan"/>
+      <xsd:element ref="dataBan"/>
+    </xsd:sequence>
+      <xsd:attribute name="stato" type="xsd:string" use="required" default="attivo"/> 
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idAcc" type="xsd:integer"/>
+<xsd:element name="nome" type="xsd:string"/>
+<xsd:element name="cognome" type="xsd:string"/>
+<xsd:element name="soldi" type="xsd:double"/>
+<xsd:element name="crediti" type="xsd:integer"/>
+<xsd:element name="reputazione" type="xsd:integer"/>
+<xsd:element name="idAddr" type="xsd:integer"/>
+<xsd:element name="countBan" type="xsd:integer"/>
+<xsd:element name="dataBan" type="xsd:date"/>
+</xsd:schema>

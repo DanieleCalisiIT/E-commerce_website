@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<categorie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="categorie.xsd">
+<categoria>
+    <idCateg>1</idCateg>
+    <nome>Famiglia</nome>
+    <descrizione>Gioco ideale per una serata in famiglia</descrizione>
+</categoria>
+<categoria>
+    <idCateg>2</idCateg>
+    <nome>Strategia</nome>
+    <descrizione>Gioco di strategia 8==D</descrizione>
+</categoria>
+<categoria>
+    <idCateg>3</idCateg>
+    <nome>Party</nome>
+    <descrizione>Party game O.O</descrizione>
+</categoria>
+</categorie>

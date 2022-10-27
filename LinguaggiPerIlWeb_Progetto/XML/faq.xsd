@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="faq">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="domanda" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="domanda">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="idFaq"/>
+      <xsd:element ref="domandaFAQ"/>
+      <xsd:element ref="risposta"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idFaq" type="xsd:integer"/>
+<xsd:element name="domandaFAQ" type="xsd:string"/>
+<xsd:element name="risposta" type="xsd:string"/>
+
+</xsd:schema>                        

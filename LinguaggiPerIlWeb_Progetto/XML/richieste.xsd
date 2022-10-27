@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="richieste">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="richiesta" maxOccurs="unbounded"/>
+    </xsd:sequence>  
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name ="richiesta">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element ref="idRich"/>
+        <xsd:element ref="importo"/>
+        <xsd:element ref="idAcc"/>
+    </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="idRich" type="xsd:integer"/>
+<xsd:element name="importo" type="xsd:double"/>
+<xsd:element name="idAcc" type="xsd:integer"/>
+
+</xsd:schema> 
